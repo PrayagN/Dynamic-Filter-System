@@ -3,6 +3,7 @@ import { FilterBuilder } from './components/FilterBuilder';
 import { DataTable } from './components/DataTable';
 import { useFilter } from './hooks/useFilter';
 import { ErrorBoundary } from './components/ErrorBoundary';
+import { ScrollToTop } from './components/ScrollToTop';
 import { Layers } from 'lucide-react';
 
 const theme = createTheme({
@@ -108,6 +109,7 @@ function App() {
             </Box>
           </ErrorBoundary>
         </Container>
+        <ScrollToTop />
       </Box>
     </ThemeProvider>
   );
