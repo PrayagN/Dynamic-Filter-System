@@ -50,19 +50,4 @@ The application uses a flat array of `Employee` objects. Each object contains ne
 ### Filtering Algorithm
 The core logic resides in `src/utils/filterUtils.ts`. It uses a custom-built processing engine that handles type-specific operations (text, number, boolean, date, array) while respecting field groupings.
 
-## 📺 Deployment Guide
 
-This project can be easily deployed to Vercel, Netlify, or GitHub Pages.
-
-### Vercel (Recommended)
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel` in the project root.
-3. Follow the prompts to deploy.
-
-### GitHub Pages
-1. Install gh-pages: `npm install gh-pages --save-dev`
-2. Add deployment scripts to `package.json`.
-3. Run `npm run deploy`.
-
-## 📄 License
-MIT
